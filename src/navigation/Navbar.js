@@ -9,26 +9,14 @@ const navigation = [
   {
     name: "Reflection",
     href: "#Reflection",
-    current: true,
-    icon: "",
   },
   {
     name: "Skills",
     href: "#Skills",
-    current: false,
-    icon: "",
   },
   {
-    name: "Deliverables",
-    href: "#Deliverables",
-    current: false,
-    icon: "",
-  },
-  {
-    name: "Additional Artifacts",
-    href: "#Additional_Artifacts",
-    current: false,
-    icon: "",
+    name: "Additional Artifact",
+    href: "#Additional_Artifact",
   },
 ];
 
@@ -75,7 +63,6 @@ export default function Navbar() {
                           "px-4 py-2 rounded-md text-sm font-medium"
                         )}
                       >
-                        {item.icon}
                         <span>{item.name}</span>
                       </a>
                     ))}

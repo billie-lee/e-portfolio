@@ -39,14 +39,25 @@ const AboutMe = () => {
             <br />
             <p>
               Before coming here, I was a software engineer for three (3) years
-              focusing on JAVA as my main language. I’m now finishing my Master
-              of Information Technology majoring in Software Development and
-              Support. I chose this major as I want to learn more about
-              developing software. As one of my dreams is to become a software
-              architect. Experiences from WIL placement helped me experience
-              working in an IT environment that I know will be useful upon
-              entering the professional world not only in Australia but even
-              when I go back to my country.
+              in a company name Pointwest Innovation Corporation focusing on
+              JAVA as my main language. In this experience, I was assigned to
+              three (3) different projects. My first project was a ticketing
+              application for a government sector in my country. I joined this
+              project while the project was ongoing meaning, adding some new
+              features to the existing system. On my second project, it was for
+              an e-commerce website based in the US. I was a “code checker” as
+              they call it. I checked quality engineers’ code before they push
+              it to the repository. My last project with the company was Loan
+              Application for another government sector that manages all the
+              loans from different banks.
+            </p>
+            <br />
+            <p>
+              I’m now finishing my Master of Information Technology majoring in
+              Software Development and Support. I chose this major as I want to
+              learn more about developing software. As one of my dreams is to
+              become a software architect. Experiences from WIL placement helped
+              me experience working in an IT environment in Australia.
             </p>
           </div>
         </div>
