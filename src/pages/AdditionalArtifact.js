@@ -3,7 +3,7 @@ import React from "react";
 const AdditionalArtifact = () => {
   return (
     <>
-      <div className="container mx-auto px-6 pt-4 flex-1 text-center">
+      <div className="container mx-auto px-6 pt-4 pb-4 flex-1 text-center">
         <div
           id="Additional_Artifact"
           className="text-lg md:text-2xl lg:text-3xl py-2 px4 md:py-4 md:px-10 lg:py-6 lg:px-12"
