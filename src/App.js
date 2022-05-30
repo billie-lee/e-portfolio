@@ -1,48 +1,28 @@
-import logo from "./logo.svg";
 import "./App.css";
 import Navbar from "./navigation/Navbar";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import AboutMe from "./pages/AboutMe";
-import Error from "./pages/Error";
+import Reflection from "./pages/Reflection";
+import Skills from "./pages/Skills";
 
-function App() {
+const App = () => {
   return (
     <>
-      <div>
-        <Router>
-          <Navbar />
-          <Routes>
-            <Route path="/e-portfolio/" exact element={<AboutMe />} />
-            <Route path="/e-portfolio/about_me" exact element={<AboutMe />} />
-            <Route
-              path="/e-portfolio/critical_reflection"
-              exact
-              element={<AboutMe />}
-            />
-            <Route path="/e-portfolio/skills" exact element={<AboutMe />} />
-            <Route
-              path="/e-portfolio/deliverables"
-              exact
-              element={<AboutMe />}
-            />
-            <Route
-              path="/e-portfolio/additional_artifacts"
-              exact
-              element={<AboutMe />}
-            />
-            {/* <Route path="/create_application" element={<CreateApplication />} />
-            <Route path="/settings" element={<Settings />} />
-            <Route path="/application">
-              <Route path=":UUID" element={<ApplicationDetail />} />
-              <Route path=":UUID/list" element={<ApplicationWebList />} />
-              <Route path=":UUID/:WBID" element={<ApplicationWebList />} />
-            </Route> */}
-            <Route path="*" element={<Error />} />
-          </Routes>
-        </Router>
+      <div className="min-h-screen flex flex-col text-white">
+        <Navbar />
+        <div className="container mx-auto px-6 pt-16 flex-1 text-center">
+          <h2 className="text-2xl md:text-4xl lg:text-6xl uppercase">
+            Welcome to my
+          </h2>
+          <h2 className="text-3xl md:text-6xl lg:text-8xl font-black uppercase mb-8">
+            E-Portfolio
+          </h2>
+        </div>
+        <AboutMe />
+        <Reflection />
+        <Skills />
       </div>
     </>
   );
-}
+};
 
 export default App;

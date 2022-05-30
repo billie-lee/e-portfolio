@@ -8,13 +8,13 @@ import * as IcoMoon from "react-icons/im";
 const navigation = [
   {
     name: "Reflection",
-    href: "/e-portfolio/critical_reflection",
+    href: "#Reflection",
     current: true,
     icon: "",
   },
   {
     name: "Skills",
-    href: "/e-portfolio/skills",
+    href: "#Reflection",
     current: false,
     icon: "",
   },
@@ -38,7 +38,7 @@ function classNames(...classes) {
 
 export default function Navbar() {
   return (
-    <Disclosure as="nav" className="bg-gray-800">
+    <Disclosure as="nav" className="bg-teal-900 sticky top-0 z-20">
       {({ open }) => (
         <>
           <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
@@ -56,20 +56,20 @@ export default function Navbar() {
               </div>
               <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
                 <div className="flex-shrink-0 flex items-center">
-                  <FcIcon.FcMindMap size={36} />
-                  <Link
-                    to="/e-portfolio/"
+                  <a
+                    href="#About_Me"
                     className="hidden lg:block h-8 w-auto text-white font-mono text-xl pt-1"
                   >
                     BillieAnneLee
-                  </Link>
+                  </a>
+                  <FcIcon.FcMindMap size={36} />
                 </div>
                 <div className="hidden sm:block sm:ml-6">
                   <div className="flex space-x-4">
                     {navigation.map((item) => (
-                      <Link
+                      <a
                         key={item.name}
-                        to={item.href}
+                        href={item.href}
                         className={classNames(
                           "flex space-x-4 text-gray-300 hover:bg-gray-700 hover:text-white",
                           "px-4 py-2 rounded-md text-sm font-medium"
@@ -77,50 +77,10 @@ export default function Navbar() {
                       >
                         {item.icon}
                         <span>{item.name}</span>
-                      </Link>
+                      </a>
                     ))}
                   </div>
                 </div>
-              </div>
-              <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
-                {/* Profile dropdown */}
-                <Menu as="div" className="ml-3 relative">
-                  <div>
-                    <Menu.Button className="bg-gray-800 flex text-sm rounded-full focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white">
-                      <span className="sr-only">Open user menu</span>
-                      <img
-                        className="h-8 w-8 rounded-full"
-                        src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
-                        alt=""
-                      />
-                    </Menu.Button>
-                  </div>
-                  <Transition
-                    as={Fragment}
-                    enter="transition ease-out duration-100"
-                    enterFrom="transform opacity-0 scale-95"
-                    enterTo="transform opacity-100 scale-100"
-                    leave="transition ease-in duration-75"
-                    leaveFrom="transform opacity-100 scale-100"
-                    leaveTo="transform opacity-0 scale-95"
-                  >
-                    <Menu.Items className="origin-top-right absolute right-0 mt-2 w-48 rounded-md shadow-lg py-1 bg-white ring-1 ring-black ring-opacity-5 focus:outline-none">
-                      <Menu.Item>
-                        {({ active }) => (
-                          <a
-                            href="/about_me"
-                            className={classNames(
-                              active ? "bg-gray-100" : "",
-                              "block px-4 py-2 text-sm text-gray-700"
-                            )}
-                          >
-                            About Me
-                          </a>
-                        )}
-                      </Menu.Item>
-                    </Menu.Items>
-                  </Transition>
-                </Menu>
               </div>
             </div>
           </div>
