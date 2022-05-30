@@ -14,19 +14,19 @@ const navigation = [
   },
   {
     name: "Skills",
-    href: "#Reflection",
+    href: "#Skills",
     current: false,
     icon: "",
   },
   {
     name: "Deliverables",
-    href: "/e-portfolio/deliverables",
+    href: "#Deliverables",
     current: false,
     icon: "",
   },
   {
     name: "Additional Artifacts",
-    href: "/e-portfolio/additional_artifacts",
+    href: "#Additional_Artifacts",
     current: false,
     icon: "",
   },

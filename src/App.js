@@ -11,7 +11,7 @@ const App = () => {
         <Navbar />
         <div className="container mx-auto px-6 pt-16 flex-1 text-center">
           <h2 className="text-2xl md:text-4xl lg:text-6xl uppercase">
-            Welcome to my
+            WIL Placement
           </h2>
           <h2 className="text-3xl md:text-6xl lg:text-8xl font-black uppercase mb-8">
             E-Portfolio
