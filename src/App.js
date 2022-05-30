@@ -12,12 +12,24 @@ function App() {
         <Router>
           <Navbar />
           <Routes>
-            <Route path="/" exact element={<AboutMe />} />
-            <Route path="/about_me" exact element={<AboutMe />} />
-            <Route path="/critical_reflection" exact element={<AboutMe />} />
-            <Route path="/skills" exact element={<AboutMe />} />
-            <Route path="/deliverables" exact element={<AboutMe />} />
-            <Route path="/additional_artifacts" exact element={<AboutMe />} />
+            <Route path="/e-portfolio/" exact element={<AboutMe />} />
+            <Route path="/e-portfolio/about_me" exact element={<AboutMe />} />
+            <Route
+              path="/e-portfolio/critical_reflection"
+              exact
+              element={<AboutMe />}
+            />
+            <Route path="/e-portfolio/skills" exact element={<AboutMe />} />
+            <Route
+              path="/e-portfolio/deliverables"
+              exact
+              element={<AboutMe />}
+            />
+            <Route
+              path="/e-portfolio/additional_artifacts"
+              exact
+              element={<AboutMe />}
+            />
             {/* <Route path="/create_application" element={<CreateApplication />} />
             <Route path="/settings" element={<Settings />} />
             <Route path="/application">
