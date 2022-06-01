@@ -7,11 +7,11 @@ import * as IcoMoon from "react-icons/im";
 
 const navigation = [
   {
-    name: "Reflection",
+    name: "Critical Analysis of Placement",
     href: "#Reflection",
   },
   {
-    name: "Skills",
+    name: "Evidence of Technical/Transferable Capability",
     href: "#Skills",
   },
   {
@@ -19,7 +19,7 @@ const navigation = [
     href: "#Additional_Artifact",
   },
   {
-    name: "Extra Artifact",
+    name: "Extra-Curricular Experience",
     href: "#Extra_Artifact",
   },
 ];
