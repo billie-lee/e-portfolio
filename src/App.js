@@ -2,6 +2,7 @@ import "./App.css";
 import Navbar from "./navigation/Navbar";
 import AboutMe from "./pages/AboutMe";
 import AdditionalArtifact from "./pages/AdditionalArtifact";
+import ExtraArtifact from "./pages/ExtraArtifact";
 import Reflection from "./pages/Reflection";
 import Skills from "./pages/Skills";
 
@@ -22,6 +23,7 @@ const App = () => {
         <Reflection />
         <Skills />
         <AdditionalArtifact />
+        <ExtraArtifact />
       </div>
     </>
   );

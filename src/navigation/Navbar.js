@@ -15,8 +15,12 @@ const navigation = [
     href: "#Skills",
   },
   {
-    name: "Additional Artifact",
+    name: "Additional Artifact [7822ICT]",
     href: "#Additional_Artifact",
+  },
+  {
+    name: "Extra Artifact",
+    href: "#Extra_Artifact",
   },
 ];
 

@@ -12,26 +12,34 @@ const AdditionalArtifact = () => {
           Additional Artifact
         </div>
 
-        <div className="w-1/2 mx-auto bg-white bg-opacity-100 text-black p-2 text-justify">
-          <p>
-            Working in a team with members that have different cultures. As a
-            non-local in a multicultural country, I think it’s normal to work
-            with people that came from around the world. When I started working
-            with this team, I needed to be aware, if not everything, just a
-            little about their culture. As all this is new to me, it is a must
-            to make sure that my actions are somehow appropriate for everyone.
-            This was not an easy thing to do as there are many things to
-            consider. But by doing this, may not completely avoid the conflict
-            but it will lessen it. It is also a good way of showing respect to
-            my teammates. From my own beliefs, giving respect is important no
-            matter who the person is. Applying this thinking helped me to work
-            with my team more effectively and produce our work properly. Having
-            this experience made me realise lots of things such as not
-            everything that is okay with me is okay with everyone. It made me
-            more conscious of my surroundings and also allow me to learn about
-            different cultures which I think will be helpful in my career
-            especially working with different people.
-          </p>
+        <div className="justify-between w-1/2 mx-auto bg-white bg-opacity-100 text-black p-4 text-justify">
+          <span className="underline">
+            Active Learning, Complex Problem Solving, Communication, Decision
+            Making and Understanding how the system works.
+          </span>
+          &nbsp;Learning a programming language that I have never used before,
+          code changes that will affect the whole system from working as
+          expected. These are the two (2) few things that I have experienced
+          from my placement. For me, learning a new language was never hard (as
+          a subjective opinion) as much as you know the basics of coding,
+          learning will be easier. As an ICT professional, I believe that
+          memorizing a whole language will not help you with your career. It is
+          how you understand how it works that will help you grow your career.
+          Technology matures every day; new technologies are continuing to
+          evolve as time passes. I have heard from some friends that applying
+          for a job, specifically here in Australia, they will not ask how well
+          you know a certain programming language. What they usually ask is how
+          well can you learn technology each time that will contribute to their
+          project or company. Also being mindful of our code changes is
+          certainly one of the critical skills that we need in working in the
+          industry. Making sure that your code changes won’t affect everyone is
+          important in developing with a team. I realized this when one incident
+          in our placement happened, we tried to figure out why the application
+          is not working. I needed to check our repository for changes that were
+          just committed before it happens then discovered that one single
+          change (change of variable name) caused the problem. Being mindful
+          about your changes and testing before applying the changes is always a
+          good practice for this kind of job.
         </div>
       </div>
     </>

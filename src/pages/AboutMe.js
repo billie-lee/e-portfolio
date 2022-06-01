@@ -12,7 +12,7 @@ const AboutMe = () => {
           About Me
         </div>
 
-        <div className="flex justify-between w-1/2 mx-auto bg-white bg-opacity-100 text-black p-2 text-justify">
+        <div className="flex justify-between w-1/2 mx-auto bg-white bg-opacity-100 text-black p-4 text-justify">
           <div>
             <img
               className="object-left-top float-left object-scale-down h-36 w-36 p-2"
